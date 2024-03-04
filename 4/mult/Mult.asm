@@ -12,8 +12,6 @@
 M=0
 (LOOP)
 @R1
-M=M-1
-@R1
 D=M
 @END
 D;JLE
@@ -23,6 +21,8 @@ D=M
 D=D+M
 @R2
 M=D
+@R1
+M=M-1
 @LOOP
 0;JMP
 (END)
