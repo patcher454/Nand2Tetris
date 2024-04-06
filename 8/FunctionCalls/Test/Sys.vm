@@ -1,0 +1,8 @@
+function Sys.init 0
+    call Sys.get 0
+label END
+	goto END
+
+function Sys.get 0
+    push constant 1
+    return
